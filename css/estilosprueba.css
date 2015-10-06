@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/*CSS PARA LOS "TRABAJOS", HOVERRA EGITEKO*/
+
+h5{margin-top:0 !important;
+margin-bottom:0 !important;}
+
+.sinseparacion h5 {
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+.texto {
+   font-family: 'museo100' !important;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 70000;
+    font-size: 2em;
+    height: 100%;
+    padding-top: 37%;
+    color: rgb(255, 255, 255);
+	/*background-color: red;*/
+}
+
+.texto_titulo{
+	font-size:2em;
+}
+	
+	
+	
+.sinseparacion a img:hover{
+	opacity:0.5;
+	-webkit-opacity:0.5;
+	transition:1s;
+	-o-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	-ms-transition:1s;
+}
+
+.sinseparacion a img{
+/*	width:auto;
+	height:auto;*/
+	transition:1s;
+	-o-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	-ms-transition:1s;
+	
+}
+
+.sinseparacion  h5{
+	opacity:0;
+	transition:1s;
+	-o-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	-ms-transition:1s;
+	
+}
+.sinseparacion  h5:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
+	opacity:1;
+	-webkit-opacity:1;
+	transition:1s;
+	-o-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	-ms-transition:1s;
+}
