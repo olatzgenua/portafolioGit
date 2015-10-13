@@ -1,10 +1,10 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-   
-<title>Cartel fuegos artificiales</title>
-<meta name="description" content="Cartel de los fuegos artificiales de Donostia">
-    <meta name="keywords" content="diseño grafico, cartel, fuegos, fiestas, semana grande">
+    <title>Alumigraf</title>
+<meta name="description" content="Web, logotipo, tarjetas de visita y catalogos de productos y servicios de la empresa Alumigraf">
+    <meta name="keywords" content="diseño grafico, catalogo, branding, comunicacion, imagen corporativa, empresa, logo, web">
     <meta name="author" content="Olatz Genua">
         
     <link rel="shortcut icon" href='favicon.ico' /> <!--PARA K SE VEA EL FAVICON HAU JARRI BEHAR DA ETA IMAGENA A LA ALTURA DE DEL INDEX (LA IMAGEN EN FAVICONCC-->
@@ -87,17 +87,17 @@ $(document).ready(function(){
         <h1><a href="#inicio">Olatz Genua</a></h1> 
         </div> 
       
-        <div class="collapse navbar-collapse" > 
+        <!--div class="collapse navbar-collapse" >
 		<ul >
           	<li class="idioma"><a href="#">eu</a></li>
    			<li class="idioma"><a href="#">es</a></li>  
    			<li class="idioma">|</li>
-        </ul> 
+        </ul-->
  
           <ul class="nav navbar-nav navbar-right menucillo" >
             <li><a href="../index.html#procesocreativo">Hello</a></h1></li>
             <li><a href="../index.html#portafolio">Portafolio</a></li>
-            <li><a href="../index.html#loquebuscas">Lo que buscas</a></li>
+            <li><a href="../index.html#loquebuscas">Servicios</a></li>
             <li><a href="../index.html#conoceme">Conóceme</a></li>
 
           <!--  hizkuntzak--></ul>
@@ -107,8 +107,6 @@ $(document).ready(function(){
   
  <!--FIN MENU--> 
   
- 
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -124,25 +122,27 @@ $(document).ready(function(){
         
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
  
- 	<h2 class= "marra trabajotitulo">CARTEL
-    <br/>FUEGOS</h2>
+ 	<h2 class= "marra trabajotitulo">ALUMIGRAF</h2>
    </div><!-- cierre del titulo tarjeta de visita-->
   
         
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
 
-    <p>Este cartel anuncia la 50 edición del <span  class="negrita">concurso internacional de fuegos artificiales</span> de Donotia dentro de la Semana Grande. Se trata de un <span  class="negrita">diseño dibujado a mano</span> que hace especial incapié en las <span  class="negrita">míticas sillas de la playa de la concha;</span> escenario principal para ver el espectáculo y los colores de los fuegos artificiales que explotan en el cielo.</p>
-    
-   
+    <p>Web, rediseño de logo y creacion del imagotipo, tarjetas de vistia y catálogos para la empresa de anodizado e impresión en aluminio y pvc-s <span  class="negrita">Alumigraf.</span></br>
+        El objetivo ha sido dar una <span  class="negrita">imagen más actual</span> a la empresa renovando por completo la imagen.</br>
+        El logo mas redondeado y con su color azul identificativo mas actual evoca una empresa puntera y seria. El imagotipo compuesto por tres hexágonos en escala de azules recuerda la forma
+        de "panel de abeja" que se crea en el proceso de anodizado de aluminio; elemento diferenciador de Alumigraf.</br>
+        El Catálogo Industrial y Catálogo de Construcción junto con la tarjeta de visita tienen un diseño sobrio, claro y moderno acorde con la imagen corporativa
+        creada.</br>
+        La página web corporativa <a href="http://www.Alumigraf.es" target="_blank">Alumigraf.es</a> , renovada por completo, está sintonía con la renovada imagen y adaptada a todos los dispositivos. </p>
     
  		</div> <!--cierre explicacion del trabajo-->
    
   </div> <!--div row-->
- 
- 
- <span class="flechas"><a href="estropadak4.html"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
-  <a href="inauteriak6.html"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
- 
+  
+  <span class="flechas"><a href="tarjetaAne1.php"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
+  <a href="astenagusia3.php"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
+   
  </div> <!--fin div row blanco-->
  
  </div> <!--fin div container-->     
@@ -151,13 +151,13 @@ $(document).ready(function(){
  
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  paddingfotos">
 
-<img src="../img/fuegos1.jpg" alt="cartel fuegos" class="img-responsive" />
+<img src="../img/alumigraf1.jpg" alt="catalogo" class="img-responsive" />
 
    </div> <!--cierre foto ane 1 del trabajo-->
    
    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 paddingfotos">
 
-<img src="../img/fuegos2.jpg" alt="cartel fuegos" class="img-responsive"/>
+<img src="../img/alumigraf2.jpg" alt="catalogo" class="img-responsive"/>
 
    </div> <!--cierre foto ane 2 del trabajo-->
    

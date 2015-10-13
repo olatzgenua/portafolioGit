@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cartel Tamborrada</title>
-<meta name="description" content="Cartel de la tamborrada de Donostia">
-    <meta name="keywords" content="diseño grafico, cartel, tamborrada, aguadora,azul, blanco, fiesta">
+    <title>Komunikazio kanpaina Alboan</title>
+    <meta name="description" content=" Campaña de comunicación de la ONG Alboan">
+    <meta name="keywords" content="donostia, comunicacion, campaña, kapaina, Alboan, GKE, ONG">
     <meta name="author" content="Olatz Genua">
-        
-    <link rel="shortcut icon" href='favicon.ico' /> <!--PARA K SE VEA EL FAVICON HAU JARRI BEHAR DA ETA IMAGENA A LA ALTURA DE DEL INDEX (LA IMAGEN EN FAVICONCC-->
+    
+    <link rel="shortcut icon" href='http://master.2013.alumni.ceinpro.es/ogenua/portafolio/favicon.ico' /> <!--PARA K SE VEA EL FAVICON HAU JARRI BEHAR DA ETA IMAGENA A LA ALTURA DE DEL INDEX (LA IMAGEN EN FAVICONCC-->
     
   
     
@@ -123,14 +123,18 @@ $(document).ready(function(){
         
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
  
- 	<h2 class= "marra trabajotitulo">CARTEL
-    <br/>TAMBORRADA</h2>
+ 	<h2 class= "marra trabajotitulo">CAMPAÑA COMUNICACIÓN
+    <br/>ALBOAN</h2>
    </div><!-- cierre del titulo tarjeta de visita-->
   
         
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
 
-    <p>Es un cartel que informa sobre la próxima fiesta de la <span  class="negrita">tamborrada de Donostia.</span> Se trata de la <span  class="negrita">silueta de una aguadora</span>, un símbolo poco utilizado en la comunicación de esta fiesta pero que no deja de ser muy importante. Colocado en el centro sobre un fondo azul propio de los colores de la ciudad.</p>
+    <p><span  class="negrita">La ONG Alboan</span>, dedicada al desarrollo de la educación en el hemisferio sur, pidió una campaña de comunicación que solucionara una gran necesidad que tenían: <span  class="negrita">hacerse conocer entre el público vasco y conseguir estabilidad y notoriedad.</span> Es decir, conseguir ser una ONG de primer nivel como pueden ser UNICEF, La Cruz Roja... </p>
+    <p>Para ello, y después de un profundo análisis decidimos dirigirnos a dos targets, por un lado adultos de entre 30-55 años, y por otro, jóvenes de entre 18-24. Ya que la campaña se centra EAE y Navarra, conseguiremos notoriedad poniendo inserciones publicitarias en cadenas de televisión como ETB.
+    </p>
+    
+    <p> Ver el trabajo completo <a href="http://openstack.booktype.pro/komunikazio-kanpaina/indicar-el-titulo-del-capitulo-nuevo/">AQUÍ</a></p>
     
    
     
@@ -138,8 +142,9 @@ $(document).ready(function(){
    
   </div> <!--div row-->
  
- <span class="flechas"><a href="inauteriak6.html"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
-  <a href="donbosco8.html"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
+ <span class="flechas"><a href="belleepoque13.php"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
+  <a href="caritas15.php"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
+ 
  
  </div> <!--fin div row blanco-->
  
@@ -149,18 +154,18 @@ $(document).ready(function(){
  
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  paddingfotos">
 
-<img src="../img/danborrada1.jpg" alt="cartel tamborrada" class="img-responsive" />
+<img src="../img/alboan1.jpg" alt="talboan" class="img-responsive" />
 
-   </div> <!--cierre foto ane 1 del trabajo-->
-   
-   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 paddingfotos">
+   </div> 
+<!--cierre foto ane 1 del trabajo-->
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 paddingfotos">
 
-<img src="../img/danborrada2.jpg" alt="cartel tamborrada" class="img-responsive"/>
+<img src="../img/alboan2.jpg" alt="alboan" class="img-responsive"/>
 
-   </div> <!--cierre foto ane 2 del trabajo-->
+</div><!--cierre foto ane 2 del trabajo-->
    
    
-   </div> <!--cierre row-->
+ </div><!--cierre row-->
    
   <!--FOOTER-->
 

@@ -1,26 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Fotografía publicitaria</title>
-<meta name="description" content="Fotografía publicitaria de xocolat">
-    <meta name="keywords" content="diseño grafico, fotografía, minimalista, cartel, publicitario, chocolate">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Aingura Kofradia</title>
+<meta name="description" content="Logotipo de Aingura Kofradia">
+    <meta name="keywords" content="diseño grafico, logotipo, aingura, kofradia, comunicacion, imagen corporativa, facebook">
     <meta name="author" content="Olatz Genua">
-        
-    <link rel="shortcut icon" href='favicon.ico' /> <!--PARA K SE VEA EL FAVICON HAU JARRI BEHAR DA ETA IMAGENA A LA ALTURA DE DEL INDEX (LA IMAGEN EN FAVICONCC-->
-    
-  
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!--LA LINEA K HAY K PONER PARA K LAS TILDES Y LAS Ñ-S FUNCIONEN-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/portafolioestilo.css" rel="stylesheet" type="text/css" />
 
+<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="../css/fonts/stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
-  <link href="../css/portafolioestilo.css" rel="stylesheet" type="text/css">
-  <link href="../fonts/stylesheet.css" rel="stylesheet" type="text/css">
-  
-<!--  AL PULSAR EN CONTACTO...PARA QUE VAYA EN PLAN RODANDO (POKO A POKO) Y EL BOTON DEL SCROLL TMB APARECE ASI-->
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
@@ -60,58 +53,61 @@ $(document).ready(function(){
 </script> <!--SE ACABA EL SCROLLING-->
 
 
+</head>
 
-  </head>
-  <body>
-
-        <div id="inicio"></div> 
+<body>
   <a href="arriba" class="scrollup">Scroll</a> <!--BOTON PARA EL ESCROLLING PARA ARRIBA, eta css-n estiloa eman eta gero enlazatu det en header jartzen: id="arriba"-->
 
   
   <!--MENU-->
+<!--MENU-->
 
    <div class="navbar navbar-inverse navbar-fixed-top blanco" role="navigation">
 
       <div class="container">
-     
-      
         <div class="navbar-header">
-
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <h1><a href="#inicio">Olatz Genua</a></h1> 
+         
         </div> 
       
         <div class="collapse navbar-collapse" > 
-		<ul >
+        <h1><a href="../index.html#inicio">Olatz Genua</a></h1>
+        
+        <ul>
+           
           	<li class="idioma"><a href="#">eu</a></li>
    			<li class="idioma"><a href="#">es</a></li>  
    			<li class="idioma">|</li>
-        </ul> 
- 
+          </ul>
+          
           <ul class="nav navbar-nav navbar-right menucillo" >
-            <li><a href="../index.html#procesocreativo">Hello</a></h1></li>
+            <li><a href="../index.html">Hello</a></h1></li>
             <li><a href="../index.html#portafolio">Portafolio</a></li>
             <li><a href="../index.html#loquebuscas">Lo que buscas</a></li>
             <li><a href="../index.html#conoceme">Conóceme</a></li>
-
           <!--  hizkuntzak--></ul>
+         
+          
+          
+          
+          
+          
         </div><!--/.nav-collapse -->
       </div>
     </div>
   
  <!--FIN MENU--> 
-  
- 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
 
 
 <div id="trabajos" class="container">
@@ -123,24 +119,28 @@ $(document).ready(function(){
         
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
  
- 	<h2 class= "marra trabajotitulo">FOTOGRAFÍA
-    <br/>PUBLICITARIA</h2>
+ 	<h2 class= "marra trabajotitulo">AINGURA 
+    <br/>KOFRADIA</h2>
    </div><!-- cierre del titulo tarjeta de visita-->
   
         
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
 
-    <p>Esta es una <span  class="negrita">fotografía publicitaria</span> de chocolate a la taza "xocolat". Es un plano cenital de una taza de chocolate que se ayuda del slogan para darle más fuerza. Destacado sobre un fondo negro le aporta el toque de <span  class="negrita">elegancia y calidad</span> que quiere transmitir.</p>
-    <p>El  <span  class="negrita">logotipo</span> también ha sido creado para el anuncio. Con una  <span  class="negrita">tipografía suave y elegante</span> junto con la  <span  class="negrita">gota de chocolate que la acompaña como símbolo</span> hace que deseemos este producto en ocasiones especiales.</p>
+    <p><span  class="negrita">Aingura Kofradia</span> es un grupo ecológico que hemos creado dentro de los <span  class="negrita">"piratas"</span> de Donostia. El objetivo es concienciar y respetar al medio ambiente en el ambiente festivo la Aste Nagusia de Donosti; hacer que nuestras fiestas sean mejores con ideas como la soberanía alimentaria, el kilómetro 0 de los alimentos, el respeto al entorno...</p>
+    <p>El <span  class="negrita">logotipo</span> hace referencia a nuestro nombre: Aingura (ancla) y está envuelta por plantas verdes con la idea de aunar el mar y la tierra. Es decir, compartir las ideas de los piratas junto con la ecología. 
+    <p>También he creado una página de <a href="https://www.facebook.com/pages/Aingura-Kofradia/593543774069995?ref=hl">facebook</a> donde mostraremos nuestras ideas y las acciones que llevaremos a cabo.</p>
+    <p>Todo lo comentado se muestra en un <span  class="negrita">vídeo</span> que hemos realizado gustosamente animando a todo aquel que quiera a llevar una vida mas saludable y diferente junto a <a href="http://vimeo.com/96481983" target="_blank">Aingura</a>
+     
     
    
     
- 		</div> <!--cierre explicacion del trabajo-->
+	   </div> <!--cierre explicacion del trabajo-->
    
   </div> <!--div row-->
  
- <span class="flechas"><a href="retratoyosu10.html"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
-  <a href="poltsing12.html"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
+ <span class="flechas"><a href="caritas15.php"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
+  <a href="tarjetaAne1.php"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
+ 
  
  </div> <!--fin div row blanco-->
  
@@ -150,13 +150,13 @@ $(document).ready(function(){
  
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  paddingfotos">
 
-<img src="../img/chocolate1.jpg" alt="fotografia publicitaria" class="img-responsive" />
+<img src="../img/aingura1.jpg" alt="logotipo aingura" class="img-responsive" />
 
    </div> <!--cierre foto ane 1 del trabajo-->
    
    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 paddingfotos">
 
-<img src="../img/chocolate2.jpg" alt="fotografia publicitaria" class="img-responsive"/>
+<img src="../img/aingura2.jpg" alt="logotipo aingura" class="img-responsive"/>
 
    </div> <!--cierre foto ane 2 del trabajo-->
    

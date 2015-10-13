@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Komunikazio kanpaina Alboan</title>
-    <meta name="description" content=" Campaña de comunicación de la ONG Alboan">
-    <meta name="keywords" content="donostia, comunicacion, campaña, kapaina, Alboan, GKE, ONG">
+    <title>Carteles Belle Epoque</title>
+<meta name="description" content="Carteles para la exposición 1813 en Donostia">
+    <meta name="keywords" content="diseño grafico, carteles, belle epoque, edificios">
     <meta name="author" content="Olatz Genua">
-    
-    <link rel="shortcut icon" href='http://master.2013.alumni.ceinpro.es/ogenua/portafolio/favicon.ico' /> <!--PARA K SE VEA EL FAVICON HAU JARRI BEHAR DA ETA IMAGENA A LA ALTURA DE DEL INDEX (LA IMAGEN EN FAVICONCC-->
+        
+    <link rel="shortcut icon" href='favicon.ico' /> <!--PARA K SE VEA EL FAVICON HAU JARRI BEHAR DA ETA IMAGENA A LA ALTURA DE DEL INDEX (LA IMAGEN EN FAVICONCC-->
     
   
     
@@ -112,8 +112,7 @@ $(document).ready(function(){
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
-
-
+    
 <div id="trabajos" class="container">
    
     <div class="blanco paddingtop2"> 
@@ -123,18 +122,14 @@ $(document).ready(function(){
         
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
  
- 	<h2 class= "marra trabajotitulo">CAMPAÑA COMUNICACIÓN
-    <br/>ALBOAN</h2>
+ 	<h2 class= "marra trabajotitulo">CARTELES 
+    <br/>EXPOSICIÓN 1913</h2>
    </div><!-- cierre del titulo tarjeta de visita-->
   
         
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
 
-    <p><span  class="negrita">La ONG Alboan</span>, dedicada al desarrollo de la educación en el hemisferio sur, pidió una campaña de comunicación que solucionara una gran necesidad que tenían: <span  class="negrita">hacerse conocer entre el público vasco y conseguir estabilidad y notoriedad.</span> Es decir, conseguir ser una ONG de primer nivel como pueden ser UNICEF, La Cruz Roja... </p>
-    <p>Para ello, y después de un profundo análisis decidimos dirigirnos a dos targets, por un lado adultos de entre 30-55 años, y por otro, jóvenes de entre 18-24. Ya que la campaña se centra EAE y Navarra, conseguiremos notoriedad poniendo inserciones publicitarias en cadenas de televisión como ETB.
-    </p>
-    
-    <p> Ver el trabajo completo <a href="http://openstack.booktype.pro/komunikazio-kanpaina/indicar-el-titulo-del-capitulo-nuevo/">AQUÍ</a></p>
+    <p>Estos carteles forman parte de la <span  class="negrita">exposición</span> que se hizo en Ernest Lluch en <span  class="negrita">conmemoración del bicentenario de la quema de la ciudad de Donostia en 1813.</span> Las gráficas, mas concretamente, hacen referencia a la <span  class="negrita">Belle Epoque Donostiarra</span> (un siglo después de la quema) donde la burguesía abundaba y la Bella Easo vivía una próspera etapa. Son construcciones de ésta época que hoy en día son claro <span  class="negrita">símbolo de Donostia.</span> Por tanto, los carteles representan mediante "pedazos" la edificación de una época clave que consolidaron a San Sebastián como capital europea de referencia.</p>
     
    
     
@@ -142,9 +137,8 @@ $(document).ready(function(){
    
   </div> <!--div row-->
  
- <span class="flechas"><a href="belleepoque13.html"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
-  <a href="caritas15.html"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
- 
+ <span class="flechas"><a href="poltsing12.php"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
+  <a href="alboan14.php"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
  
  </div> <!--fin div row blanco-->
  
@@ -154,18 +148,18 @@ $(document).ready(function(){
  
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  paddingfotos">
 
-<img src="../img/alboan1.jpg" alt="talboan" class="img-responsive" />
+<img src="../img/belleEpoque1.jpg" alt="cartel belle epoque" class="img-responsive" />
 
-   </div> 
-<!--cierre foto ane 1 del trabajo-->
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 paddingfotos">
+   </div> <!--cierre foto ane 1 del trabajo-->
+   
+   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 paddingfotos">
 
-<img src="../img/alboan2.jpg" alt="alboan" class="img-responsive"/>
+<img src="../img/belleEpoque2.jpg" alt="cartel belle epoque" class="img-responsive"/>
 
-</div><!--cierre foto ane 2 del trabajo-->
+   </div> <!--cierre foto ane 2 del trabajo-->
    
    
- </div><!--cierre row-->
+   </div> <!--cierre row-->
    
   <!--FOOTER-->
 

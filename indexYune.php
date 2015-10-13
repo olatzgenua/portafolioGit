@@ -3,6 +3,15 @@
 <head>
     <title>Olatz Genua</title>
 
+    <meta name="description"
+          content="Olatz Genua diseñadora gráfica y web, mi proceso creativo y mis trabajos es lo que buscas; conóceme">
+    <meta name="keywords"
+          content="diseño grafico, diseño web, trabajos, Olatz Genua, donostia, design, branding, comunication, comunicacion, imagen corporativa, cartel, fotografia">
+    <meta name="author" content="Olatz Genua">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!--LA LINEA K HAY K PONER PARA K LAS TILDES Y LAS Ñ-S FUNCIONEN-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+
     <script>
         $(document).ready(function () {
             $('a[href^="#"]').on('click', function (e) {
@@ -42,8 +51,9 @@
     </script>
     <!--SE ACABA EL SCROLLING-->
 
-    <?php include 'includes/header.php' ?>
-
+    <?php
+    include 'includes/header.php';
+    ?>
 </head>
 <body>
 <div id="inicio"></div>
@@ -175,7 +185,7 @@
 
 
         <ul class="row peter">
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/retratoane9.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/retratoane9.php"><img
                         class="img-responsive" src="img/retratoane.png">
 
                     <h5 class="texto">
@@ -185,7 +195,7 @@
             </li>
 
 
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/alumigraf2.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/alumigraf2.php"><img
                         class="img-responsive" src="img/alumigraf.png">
 
                     <h5 class="texto">
@@ -195,7 +205,7 @@
                 </a>
             </li>
             <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a
-                    href="htmlTrabajos/retratoyosu10.html"><img class="img-responsive" src="img/retratoyosu.png">
+                    href="htmlTrabajos/retratoyosu10.php"><img class="img-responsive" src="img/retratoyosu.png">
 
 
                     <h5 class="texto">
@@ -204,7 +214,7 @@
 
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/tarjetaAne1.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/tarjetaAne1.php"><img
                         class="img-responsive" src="img/tarjetasane.png">
 
                     <h5 class="texto">
@@ -212,7 +222,7 @@
                         <br><br>Branding</h5>
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/estropadak4.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/estropadak4.php"><img
                         class="img-responsive" src="img/astenagusia.png">
 
 
@@ -221,7 +231,7 @@
                         <br><br>Cartelismo</h5>
 
                 </a></li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/estropadak4.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/estropadak4.php"><img
                         class="img-responsive" src="img/regatas.png">
 
                     <h5 class="texto">
@@ -230,7 +240,7 @@
 
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/suak5.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/suak5.php"><img
                         class="img-responsive" src="img/fuegos.png">
 
                     <h5 class="texto">
@@ -239,7 +249,7 @@
 
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/inauteriak6.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/inauteriak6.php"><img
                         class="img-responsive" src="img/inauteriak.png">
 
                     <h5 class="texto">
@@ -248,7 +258,7 @@
 
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/danborrada7.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/danborrada7.php"><img
                         class="img-responsive" src="img/danborrada.png">
 
                     <h5 class="texto">
@@ -258,7 +268,7 @@
 
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/donbosco8.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/donbosco8.php"><img
                         class="img-responsive" src="img/donbosco.png">
 
                     <h5 class="texto">
@@ -269,7 +279,7 @@
             </li>
 
 
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/chocolate11.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/chocolate11.php"><img
                         class="img-responsive" src="img/chocolate.png">
 
 
@@ -279,7 +289,7 @@
 
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/poltsing12.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/poltsing12.php"><img
                         class="img-responsive" src="img/poltsing.png">
 
 
@@ -290,7 +300,7 @@
                 </a>
             </li>
             <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a
-                    href="htmlTrabajos/belleepoque13.html"><img class="img-responsive" src="img/belleEpoque.png">
+                    href="htmlTrabajos/belleepoque13.php"><img class="img-responsive" src="img/belleEpoque.png">
 
 
                     <h5 class="texto">
@@ -299,7 +309,7 @@
 
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/alboan14.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/alboan14.php"><img
                         class="img-responsive" src="img/alboan.png">
 
                     <h5 class="texto">
@@ -308,7 +318,7 @@
 
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/caritas15.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/caritas15.php"><img
                         class="img-responsive" src="img/caritasHP.png">
 
                     <h5 class="texto">
@@ -317,7 +327,7 @@
 
                 </a>
             </li>
-            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/aingura16.html"><img
+            <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sinseparacion"><a href="htmlTrabajos/aingura16.php"><img
                         class="img-responsive" src="img/aingura.png">
 
 

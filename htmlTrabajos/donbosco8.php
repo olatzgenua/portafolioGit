@@ -2,25 +2,13 @@
 <html>
   <head>
     <title>cartel Don Bosco</title>
-<meta name="description" content="Cartel para la travesía de Don Bosco y su logotipo">
+    <meta name="description" content="Cartel para la travesía de Don Bosco y su logotipo">
     <meta name="keywords" content="diseño grafico, cartel, Don Bosco, travesía, logotipo">
     <meta name="author" content="Olatz Genua">
-        
-    <link rel="shortcut icon" href='favicon.ico' /> <!--PARA K SE VEA EL FAVICON HAU JARRI BEHAR DA ETA IMAGENA A LA ALTURA DE DEL INDEX (LA IMAGEN EN FAVICONCC-->
-    
-  
-    
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!--LA LINEA K HAY K PONER PARA K LAS TILDES Y LAS Ñ-S FUNCIONEN-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <?php include_once '../includes/header.php'; ?>
 
-
-  <link href="../css/portafolioestilo.css" rel="stylesheet" type="text/css">
-  <link href="../fonts/stylesheet.css" rel="stylesheet" type="text/css">
-  
-<!--  AL PULSAR EN CONTACTO...PARA QUE VAYA EN PLAN RODANDO (POKO A POKO) Y EL BOTON DEL SCROLL TMB APARECE ASI-->
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
@@ -59,8 +47,6 @@ $(document).ready(function(){
 		
 </script> <!--SE ACABA EL SCROLLING-->
 
-
-
   </head>
   <body>
 
@@ -70,39 +56,7 @@ $(document).ready(function(){
   
   <!--MENU-->
 
-   <div class="navbar navbar-inverse navbar-fixed-top blanco" role="navigation">
-
-      <div class="container">
-     
-      
-        <div class="navbar-header">
-
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <h1><a href="#inicio">Olatz Genua</a></h1> 
-        </div> 
-      
-        <div class="collapse navbar-collapse" > 
-		<ul >
-          	<li class="idioma"><a href="#">eu</a></li>
-   			<li class="idioma"><a href="#">es</a></li>  
-   			<li class="idioma">|</li>
-        </ul> 
- 
-          <ul class="nav navbar-nav navbar-right menucillo" >
-            <li><a href="../index.html#procesocreativo">Hello</a></h1></li>
-            <li><a href="../index.html#portafolio">Portafolio</a></li>
-            <li><a href="../index.html#loquebuscas">Lo que buscas</a></li>
-            <li><a href="../index.html#conoceme">Conóceme</a></li>
-
-          <!--  hizkuntzak--></ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+        <?php include_once '../includes/menu.php'; ?>
   
  <!--FIN MENU--> 
   
@@ -142,8 +96,8 @@ Junto con este proyecto se ha llevado a cabo la realización de un logotipo. El 
   </div> <!--div row-->
   
   
-  <span class="flechas"><a href="danborrada7.html"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
-  <a href="retratoane9.html"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
+  <span class="flechas"><a href="danborrada7.php"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
+  <a href="retratoane9.php"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
  
  </div> <!--fin div row blanco-->
  
@@ -167,48 +121,7 @@ Junto con este proyecto se ha llevado a cabo la realización de un logotipo. El 
    </div> <!--cierre row-->
    
   <!--FOOTER-->
-
- <div id="footer" class="gris"> 
-     
-<div class="container">
-  
-  
- <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
-
-  <p class="contacto margintop">&copy; Copyright Olatz Genua</p>
-  
-  </div>
-  
-  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-   <p class="contacto margenizquierda margintop">olatz.genua@gmail.com</p>
-   
-   </div>
-   
-   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
-
-
-  <ul class="redes">
-  
-   <li class="blog margintop2">
-  <a href="#">blog</a>
-  </li> 
-  
-   <li class="linkedin margintop2">
-  <a href="http://es.linkedin.com/pub/olatz-genua/2b/877/aa0/" target="_blank">Linkedin</a>
-  </li>
-  
-  <li class="twitter margintop2">
-  <a href="http://twitter.com/olatzgenu" target="_blank">twitter</a>
-  </li>
-  
- 
-    
-    </ul><!--cierre redes-->
-    </div> <!--cierre tamaños-->
-     </div> <!--cierre container-->
-   
- 
- </div><!--footer-->
+        <?php include_once '../includes/footer.php'; ?>
  
 
 </body>

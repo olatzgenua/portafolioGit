@@ -141,8 +141,8 @@ $(document).ready(function(){
   </div> <!--div row-->
  
  
- <span class="flechas"><a href="alboan14.html"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
-  <a href="aingura16.html"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
+ <span class="flechas"><a href="alboan14.php"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
+  <a href="aingura16.php"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
  
  </div> <!--fin div row blanco-->
  

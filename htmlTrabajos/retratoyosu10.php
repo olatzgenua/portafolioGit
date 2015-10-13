@@ -5,22 +5,10 @@
 <meta name="description" content="Pagina web corporativa">
     <meta name="keywords" content="diseño grafico, web, logotipo, tarjetas visita">
     <meta name="author" content="Olatz Genua">
-        
-    <link rel="shortcut icon" href='favicon.ico' /> <!--PARA K SE VEA EL FAVICON HAU JARRI BEHAR DA ETA IMAGENA A LA ALTURA DE DEL INDEX (LA IMAGEN EN FAVICONCC-->
-    
-  
-    
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!--LA LINEA K HAY K PONER PARA K LAS TILDES Y LAS Ñ-S FUNCIONEN-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-
-
-  <link href="../css/portafolioestilo.css" rel="stylesheet" type="text/css">
-  <link href="../fonts/stylesheet.css" rel="stylesheet" type="text/css">
-  
-<!--  AL PULSAR EN CONTACTO...PARA QUE VAYA EN PLAN RODANDO (POKO A POKO) Y EL BOTON DEL SCROLL TMB APARECE ASI-->
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+      <?php include '../includes/header.php' ?>
 <script>
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
@@ -70,39 +58,7 @@ $(document).ready(function(){
   
   <!--MENU-->
 
-   <div class="navbar navbar-inverse navbar-fixed-top blanco" role="navigation">
-
-      <div class="container">
-     
-      
-        <div class="navbar-header">
-
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <h1><a href="#inicio">Olatz Genua</a></h1> 
-        </div> 
-      
-        <!--div class="collapse navbar-collapse" >
-		<ul >
-          	<li class="idioma"><a href="#">eu</a></li>
-   			<li class="idioma"><a href="#">es</a></li>  
-   			<li class="idioma">|</li>
-        </ul-->
- 
-          <ul class="nav navbar-nav navbar-right menucillo" >
-            <li><a href="../index.html#procesocreativo">Hello</a></h1></li>
-            <li><a href="../index.html#portafolio">Portafolio</a></li>
-            <li><a href="../index.html#loquebuscas">Servicios</a></li>
-            <li><a href="../index.html#conoceme">Conóceme</a></li>
-
-          <!--  hizkuntzak--></ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+        <?php include_once '../includes/menu.php'; ?>
   
  <!--FIN MENU--> 
   
@@ -144,8 +100,8 @@ $(document).ready(function(){
   </div> <!--div row-->
  
  
- <span class="flechas"><a href="retratoane9.html"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
-  <a href="poltsing12.html"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
+ <span class="flechas"><a href="retratoane9.php"><img src="../img/prev.png" width="50" height="45" alt="previo" class="flechaizquierda"></a>
+  <a href="poltsing12.php"><img src="../img/next.png" width="50" height="45" alt="siguiente" class="flechaderecha"></a></span>
  
  
  </div> <!--fin div row blanco-->
@@ -171,47 +127,7 @@ $(document).ready(function(){
    
   <!--FOOTER-->
 
- <div id="footer" class="gris"> 
-     
-<div class="container">
-  
-  
- <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
-
-  <p class="contacto margintop">&copy; Copyright Olatz Genua</p>
-  
-  </div>
-  
-  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-   <p class="contacto margenizquierda margintop">olatz.genua@gmail.com</p>
-   
-   </div>
-   
-   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
-
-
-  <ul class="redes">
-  
-   <li class="blog margintop2">
-  <a href="#">blog</a>
-  </li> 
-  
-   <li class="linkedin margintop2">
-  <a href="http://es.linkedin.com/pub/olatz-genua/2b/877/aa0/" target="_blank">Linkedin</a>
-  </li>
-  
-  <li class="twitter margintop2">
-  <a href="http://twitter.com/olatzgenu" target="_blank">twitter</a>
-  </li>
-  
- 
-    
-    </ul><!--cierre redes-->
-    </div> <!--cierre tamaños-->
-     </div> <!--cierre container-->
-   
- 
- </div><!--footer-->
+        <?php include_once '../includes/footer.php'; ?>
  
 
 </body>
