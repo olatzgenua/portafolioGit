@@ -1,0 +1,612 @@
+@charset "utf-8";
+/* CSS Document */
+
+#portada {
+	background-image:url(../img/portada.png);
+	background-position: center center;
+	height: 650px;
+	background-size:cover;
+	background-attachment:fixed;
+    width: 100%;
+
+	
+}
+#procesocreativo, #loquebuscas{
+    background-color: #E9EBEC;
+    height: 100%;
+    z-index: 10;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.quiensoy {
+	background-image:url(../img/conoceme.png);
+	background-position: center;
+	height: 438px;
+	background-size:cover;
+}
+
+.blanco {
+	background-size:cover;
+	background-color:#FFFFFF !important;
+	margin-bottom:70px;
+	/* [disabled]height: 620px; */
+
+}
+
+.gris{
+	background-size:cover;
+    background-color: rgb(132, 195, 191);
+	padding-bottom:60px;
+	font-family: 'helvetica_neue_lt_std35_thin'!important;
+
+	
+}
+
+.mint{
+	color: #A2D7CB;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(37, 162, 153, 0.6);
+
+}
+
+#contactar {
+    width: 40%;
+    bottom: 0;
+    margin: 0 auto;
+    padding-top: 1.3%;
+    color: white;
+}
+.copy {
+    width: 160px;
+    text-align: center;
+    margin-top: 8px;
+    border: none !important;
+    font-size: 0.9em;
+    font-family: 'helvetica_neue_lt_std35_thin';
+
+    /* margin-left: -72%; */
+}
+.email{
+    font-size: 1.2em;
+    font-family: 'helvetica_neue_lt_std35_thin';
+    margin-top: 4px;
+}
+
+
+
+.pie{
+	margin-left:350px;
+	
+}
+	
+h1 a{
+    background-image: url(../img/logoazul.png);
+    z-index: 1045;
+    background-repeat: no-repeat;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+    padding-top: -10px;
+    /* margin-left: 10px; */
+    text-indent: -9999px;
+    display: block;
+    font-family: 'museo300' !important;
+    color: #000;
+    margin-bottom: 10%;
+}
+
+h2 {
+	/*text-align:center;*/
+	margin-top:75px;
+	margin-bottom:70px;
+	font-size:3em;
+	color: #505050;
+	  font-family: 'museo100' !important;
+	
+}
+
+.euskeraz{
+
+	padding-left:40%;
+	border-bottom: solid #A2D7CB 5px;
+	width:100% !important;
+	margin-bottom:80px;
+}
+.euskeraz a{
+	color: #333333;
+	text-decoration:none;
+}
+.euskeraz a:hover{
+	color: #A2D7CB;
+	
+}
+
+/*LANETAN BEHEKO MARRA*/
+.marra{
+	border-bottom: solid #A2D7CB 2px;
+	width:250px;
+	margin-bottom:15px;
+}
+.trabajotitulo{
+	font-family: 'museo100' !important;
+	font-size:3em;
+	/*margin-top:30px;*/
+}
+
+.conocemetitulo{
+	font-family: 'museo100' !important;
+	font-size:1.8em;
+    margin-top: 40px;
+}
+.conoceme{
+    color: #666;
+    font-size:1.2em;
+    margin-bottom:15px;
+    font-family: 'helvetica_neue_lt_std35_thin';!important;
+}
+.h2txuri{
+	color:#FFF;
+}
+
+h3{
+	text-align:center;
+	margin-top: 5px;
+	margin-bottom: 80px;
+	color:#797979;
+	font-family:  'dinprolight' !important;
+	font-size:1.5em;
+	
+}
+
+.cursiva{
+	font-style:italic;
+	
+}
+
+.justificado{
+	text-align:justify;
+}
+
+.negrita{
+
+	font-weight: bold;
+}
+
+h4{
+	font-size:1.6em;
+	font-family: 'helvetica_neue_lt_std35_thin' !important;
+}
+
+ul {
+	list-style-type: none;
+	padding-left:0;
+}
+
+#contactar li{
+	margin-bottom:10px;
+    float:left;
+}
+
+
+.trianguloB{
+	background-image: url(../img/trianguloB.png);
+	background-repeat:no-repeat;
+	margin: 0 auto;
+	text-align:center;
+	width:117px;
+	height:23px;
+    margin-top: -3px;
+	
+}
+
+.trianguloA{
+	background-image: url(../img/trianguloA.png);
+	background-repeat:no-repeat;
+	margin: 0 auto;
+	text-align:center;
+	width:117px;
+	height:23px;
+    margin-top: -3px;
+}
+.triangulotira{
+	background-image:url(../img/triangulotira.png);
+	bacground-size:cover;
+	background-position: center center;
+	text-indent:-9999px;
+	height:100px;
+	width:100%;
+}
+
+#trabajos{
+	padding-left:100px;
+	padding-right:100px;
+}
+	
+
+/*MENUA*/
+
+.navbar-collapse {
+    margin-top: 4px;
+}
+
+
+.menucillo {
+	font-family: 'museo300' !important;
+	font-size:1.2em;
+    float: right;
+    margin-top: 2.5%;
+
+}
+
+
+/*MENUAN IZENEN KOLOREA*/
+.navbar-inverse .navbar-nav > li > a {
+    color: #505050 !important; /*le pongo important xk en "trabajos" si no no se ve*/
+
+} 
+
+/*BEHEKO MARRA*/
+.navbar-inverse .navbar-nav > li > a:hover {
+    color:#1EA199 !important; /*el color verde del logo en rgb*/
+	border-bottom: solid #1EA199 2px;
+} 
+
+/* menuan hitzen arteko separazioa*/
+
+.nav > li > a {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+/*menuak borde beltzik ez edukitzeko*/
+
+.navbar-fixed-top {
+    border: none !important;
+    z-index: 100000;
+}
+p {
+	font-size:1.4em;
+	color:#666666;
+	margin-bottom:20px;
+	margin-top:20px;
+	font-family: 'helvetica_neue_lt_std35_thin';!important; 
+}
+.em15{
+	font-size:1.5em;
+}
+.margintop{
+	margin-top:80px;
+}
+.margintop2{
+	margin-top:60px;
+}
+.margenarriba{
+	margin-top:25px;
+}
+.paddingtop{
+	padding-top:35px;
+}
+
+.paddingtop2{
+	padding-top:150px;
+}
+
+/*lanetan argazkiak beraien artean espaziorik ez edukitzeko*/
+.paddingfotos{
+	padding-left:0!important;
+	padding-right:0!important;	
+}
+
+.centrau {
+	text-align: center;
+
+}
+.sinseparacion{
+	padding:0;
+	margin:0;
+}
+
+.margenderecha{
+	margin-right:10px;
+}
+
+.margenizquierda{
+	margin-left:30px;
+}
+
+.marginbottom{
+	margin-bottom:80px;
+}
+.idiomas{
+    margin-right: -10% !important;
+}
+
+
+.idioma {
+	
+	display: block;
+	float: right;
+	color: #000;
+	font-size:1em;
+	font-family:'museo100' !important;
+	font-size:1.1em;
+	padding-left:8px;
+	padding-top:19px !important;
+}
+
+.idioma a{
+	color: #929191;
+	
+}
+
+
+
+.contacto{
+	font-family: 'museo100' !important;
+	color: #333;
+}
+	
+	
+/*REDES SOCIALES*/
+.redes{
+	float: right;
+	width: 200px;
+	display: block;
+    margin-top: -12px;
+}
+
+.redes a{
+	margin-right:15px;
+	outline:none;
+	float: left;
+	display: block;
+	outline:none;
+}
+
+.linkedin a {
+	background-image: url(../img/in.png);
+	height: 28px;
+	width: 28px;
+	text-indent: -9999px;
+}
+
+.linkedin a:hover {
+	background-image: url(../img/inO.png);
+}
+
+.twitter a {
+	background-image: url(../img/t.png);
+	height: 28px;
+	width: 28px;
+	text-indent: -9999px;
+
+}
+
+.twitter a:hover {
+	background-image: url(../img/tO.png);
+}
+
+.blog a {
+	background-image: url(../img/w.png);
+	height: 28px;
+	width: 28px;
+	text-indent: -9999px;
+
+}
+
+.blog a:hover {
+	background-image: url(../img/wO.png);
+}
+
+
+
+.scrollup{ /*ESTILO PARA EL BOTON DE ESCROLLING*/
+    width:40px;
+    height:40px;
+    opacity:0.7;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+	background: url('../img/icon_top.png') no-repeat;
+	z-index:1000;
+}
+
+a.scrollup{ /*para k no aparezka la linea tipo div k lo rodea*/
+	outline:none;
+}
+
+.navbar-header{
+  z-index: 1000;
+  border: 0px;
+  border-bottom: none;
+ 
+}
+
+/*TRABAJOS*/
+
+/*KARRATUEN ARTEAN EZ EGOTEKO HUTSUNEA*/
+.item {
+	margin: 0 !important;
+}
+
+.date{
+	font-size:1.7em !important;
+}
+
+/*OPAZIDADEA ALDATU DIOT, FONDOA ILUNTZEKO ETA LETRAK HOBETO IKUSTEKO*/
+.item-type-line .item-hover .mask {
+background-color: #000;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+filter: alpha(opacity=50)!important;
+opacity: 0.8 !important;
+z-index: 0;
+}
+
+
+/*MENUA TXIKITZEAN AGERTZEN DEN KARRATUA*/
+.navbar-toggle {
+    border: 0px solid transparent !important;
+	background-color:#A2D7CB !important;
+	margin-top: 50px !important;
+}
+
+
+.flechas{
+	width:90%;
+}
+
+.flechaizquierda{
+	float:left;
+}
+
+.flechaderecha{
+	float:right;
+}
+@media screen and (max-width:768px) {
+
+	/*STYLE CSS-N ZEUDENAK:*/
+	body {
+		font-family: 'Roboto Slab', serif;
+		font-size: 14px;
+		background: url(images/bg.gif) repeat;
+	}
+
+	body a {
+		outline: none;
+	}
+
+	body a:active {
+		outline: none;
+	}
+
+	body a:focus {
+		outline: none;
+	}
+
+	.container {
+		/*width: 940px;*/
+		margin: 0 auto;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	#nav {
+		overflow: hidden;
+		margin: 15px auto;
+		padding: 0;
+		list-style: none;
+		width: 480px;
+	}
+
+	#nav li {
+		float: left;
+		padding: 5px;
+		list-style: none;
+		text-align: center;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+	}
+
+	#nav li a {
+		text-decoration: none;
+		color: #fff;
+		display: block;
+		width: 100%;
+		padding: 5px 10px;
+		background: #666;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-transition: all 500ms ease-out;
+		-moz-transition: all 500ms ease-out;
+		-o-transition: all 500ms ease-out;
+		transition: all 500ms ease-out;
+	}
+
+	#nav li a:hover,
+	#nav li.current a {
+		background: #ccc;
+		color: #666;
+	}
+
+	#info {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		background: #fcf8e3;
+		border: 1px solid #fbeed5;
+		width: 70%;
+		max-width: 900px;
+		margin: 0 auto 20px auto;
+		font-family: arial;
+		font-size: 12px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+	}
+
+	#info .info-wrapper {
+		padding: 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+
+	}
+
+	#info a {
+		color: #c09853;
+		text-decoration: none;
+	}
+
+	#info p {
+		margin: 5px 0 0 0;
+	}
+
+	.peter {
+		padding: 0;
+		margin-right: 0px !important;
+	}
+}
+@media screen and (max-width:770px){
+		#footer{
+		text-align:center;
+		
+		}	
+}
+@media screen and (max-width:640px){
+.blanco {
+	background-size:cover;
+	background-color:#FFFFFF !important;
+	/*margin-bottom:70px;*/
+	/* [disabled]height: 620px; */
+
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom , .navbar-header{
+  position: relative;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+#portada {
+	margin-top: 0;
+}
+}
+
+

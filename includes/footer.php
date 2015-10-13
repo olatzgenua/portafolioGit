@@ -1,5 +1,4 @@
-<!--FOOTER-->
-
+<footer>
     <div id="contactar">
         <ul>
             <li class="copy">&copy; Copyright Olatz Genua</li>
@@ -16,7 +15,8 @@
             </li>
 
 
-
-        </ul><!--cierre redes-->
+        </ul>
+        <!--cierre redes-->
     </div>
 
+</footer>
