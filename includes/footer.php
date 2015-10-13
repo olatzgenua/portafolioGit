@@ -16,7 +16,7 @@
 
 
         </ul>
-        <!--cierre redes-->
+        <!--cierre redes -->
     </div>
 
 </footer>
